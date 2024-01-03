@@ -1,0 +1,67 @@
+/* Ürün Kartları */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease; /* Hover efekti için geçiş süresi */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hover durumunda hafif bir gölge efekti */
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: center; /* Kart başlığını ortala */
+}
+
+.image {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+.image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 150px;
+  height: auto;
+}
+
+.list-group-item {
+  border: none;
+}
+
+/* Buton Grubu */
+.list-group-item .btn {
+  width: 100%;
+}
+
+/* İlgili Arayüz Ayarları */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Ürün Kartları İçin Düzenleme */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-md-4 {
+  flex: 0 0 calc(30% - 20px);
+  max-width: calc(30% - 20px);
+  margin: 10px;
+  cursor: pointer; /* Kartlara tıklanabilir cursor ekler */
+}

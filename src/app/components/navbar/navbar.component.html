@@ -1,0 +1,19 @@
+<div class="navbar">
+  <div class="left-text" >
+    <span>Ecommerce Website</span>
+  </div>
+  <div class="right-links">
+    
+    <div (click)="goToProducts()" [class.active]="isProductsActive">
+      <span>Products</span>
+    </div>
+    <div class="spacer"></div>
+    <div (click)="goToCart()" [class.active]="isCartActive">
+      <span>Cart</span>
+    </div>
+    <div (click)="exit()" [class.active]="isCartActive">
+      <span>Çıkış</span>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,49 @@
+/* navbar.component.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-text {
+    flex: 1;
+  }
+  
+  .right-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-links > div {
+    margin-left: 20px;
+  }
+  
+  .right-links div {
+    margin-top: 3px;
+  }
+  
+  .right-links span {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .right-links span:hover {
+    background-color: #495057;
+  }
+  
+  .right-links span.active {
+    background-color: #343a40; /* Rota etkin olduğunda arka plan rengi */
+  }
+  
+  .spacer {
+    width: 20px; /* veya başka bir genişlik değeri */
+  }
+  

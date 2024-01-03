@@ -1,0 +1,67 @@
+/* CSS dosyanıza ekleyeceğiniz stiller */
+
+/* Ürün kartları */
+.card {
+  margin-bottom: 20px;
+  margin-right: 20px; /* Sağa bir miktar boşluk */
+  clear: both; /* Her kartın birbirine bitişik olmamasını sağlar */
+  border: 1px solid #ddd; /* Kartlara hafif bir kenarlık ekler */
+  border-radius: 5px; /* Kart köşelerine yuvarlaklık ekler */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kartlara hafif bir gölgelik ekler */
+  transition: box-shadow 0.3s ease; /* Gölgeye geçişte yumuşak bir animasyon ekler */
+  overflow: hidden; /* İçeriğin kart sınırları içinde kalmasını sağlar */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover durumunda gölgeyi biraz daha artırır */
+}
+
+/* Toplam Tutar Alanı */
+.total-card {
+  margin-top: 100px; /* Ürünlerden ayrı bir şekilde yer alsın */
+  clear: both; /* Diğer elemanlara bitişik olmamasını sağlar */
+}
+
+/* Sepeti Onayla Butonu */
+.confirm-btn {
+  width: 150px;
+  background-color: #28a745; /* Yeşil renk */
+  color: #fff; /* Beyaz renk */
+  border: none;
+  margin-top: 20px; /* Bir miktar boşluk */
+  border-radius: 5px; /* Buton köşelerine yuvarlaklık ekler */
+  transition: background-color 0.3s ease; /* Renk değişiminde yumuşak bir animasyon ekler */
+}
+
+.confirm-btn:hover {
+  background-color: #218838; /* Hover durumunda biraz daha koyu yeşil */
+}
+
+.image {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  width: 20%; /* Sayfanın yarısına kadar genişlik */
+  height: 150%;
+  float: left; /* Sola yapışık durması için */
+}
+
+.image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 150px;
+  height: auto;
+  width: 200%; /* İmgenin yüzde 100 genişlikte olması */
+}
+
+/* Ürün başlığı sola yasla */
+.card .card-header h4 {
+  text-align: left;
+  margin-bottom: 10px; /* Başlık ile içerik arasına bir miktar boşluk ekler */
+}
+
+/* Ürün detayları sola yasla */
+.list-group-item {
+  text-align: left;
+  margin-bottom: 5px; /* Her detay arasına bir miktar boşluk ekler */
+}

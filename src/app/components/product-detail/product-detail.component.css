@@ -1,0 +1,56 @@
+.container {
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: center; /* Ürün başlığını ortala */
+    margin-bottom: 0;
+}
+
+/* Resim Kartı */
+.image {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 300px; /* İsteğinize bağlı olarak ayarlayabilirsiniz */
+    height: auto;
+  }
+  
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.quantity {
+    margin-top: 10px; /* Miktar yazısının üstünde boşluk bırakmak için */
+}
+
+.btn-secondary {
+    width: 30px; /* Küçüktür işareti butonunun genişliğini ayarlamak için */
+}
+
+.btn-success {
+    width: calc(100% - 30px); /* Miktar yazısı ve butonlar arasındaki boşluğu minimize etmek için */
+    margin: 0 auto; /* Sepete ekle butonunu ortala */
+}
+
+/* İsterseniz aşağıdaki stillemeleri değiştirerek özelleştirebilirsiniz */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+}
